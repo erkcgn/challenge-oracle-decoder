@@ -1,27 +1,32 @@
-* {
+*{
     background: #E5E5E5;
     font-family: 'Inter';
     font-weight: 400;
-    font-size: 28px;
-    line-height: 90%;
+    font-size: 24px;
+    /* line-height: 80%; */
+    /* overflow-y: hidden; */
 }
 
 .logo{
-    padding-top: 10px;
-    margin-left: 10px;
-    width: 3%;
+    padding-top: 20px;
+    margin-left: 30px;
+    width: 2%;
 }
 
 main{
     display: flex;
-    margin-bottom: 50px;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 10px;
     margin-left: 80px;
 }
 
 .mje-encriptar{
+    height: 300px;
     border: none;
     color: #0A3871;
-    margin-top: 90px;
+    margin-top: 30px;
+    padding: 2px;
     text-transform: lowercase;
 }
 
@@ -30,17 +35,35 @@ main{
     outline: none;
 }
 
+.rectangulo {
+    /* Rectangle 1 */
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 400px;
+    height: 700px;
+    left: 800px;
+    top: 50px;    
+    /* White */
+    background: #FFFFFF;
+    /* shadow */
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
 .mje-encriptado{
+    height: 300px;
     background: white;
-    background-image: url(img/Muñeco.png);
+    background-image: url(img/Muñeco_075.png);
     background-repeat: no-repeat;
     border: none;
     border-radius: 24px;
     color: #0A3871;
-    margin-left: 98px;
+    margin-left: 50px;
     margin-top: 20px;
     padding-left: 20px;
-    position: fixed;
+    position: inherit;
+    top: 60px;
 }
 
 .mje-encriptado:focus{
@@ -50,7 +73,6 @@ main{
 .botones{
     display: flex;
     margin-top: 10px;
-
 }
 
 .btn-desencriptar{
@@ -59,9 +81,9 @@ main{
     border-radius: 24px;
     color:#0A3871;
     cursor: pointer;
-    height: 67px;
+    height: 60px;
     margin-left: 30px;
-    width: 328px;
+    width: 250px;
 }
 
 .btn-encriptar{
@@ -70,8 +92,8 @@ main{
     border-radius: 24px;
     color:white;
     cursor: pointer;
-    height: 67px;
-    width: 328px;
+    height: 60px;
+    width: 250px;
 }
 
 .copiar{
@@ -79,14 +101,26 @@ main{
     border-radius: 24px;
     color: #0A3871;
     cursor: pointer;
-    height: 67px;
+    height: 60px;
     margin-left: 100px;
-    margin-top: 402px;
+    margin-top: 300px;
     position: absolute;
-    width: 336px;
+    width: 250px;
 }
 
 .informacion{
     color: #495057;
-    font-size: 18px;
+    font-size: 15px;
+}
+
+.footer {
+    margin-top: 50px;
+    text-align: center;
+    padding: 2px;
+}
+
+.copyright {
+    color: #0A3871;
+    font-size: 13px;
+    margin: 10px;
 }
