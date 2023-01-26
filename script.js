@@ -10,10 +10,10 @@ function btnEncriptar(){
 
 function encriptar(stringEncriptado){
     let matrizCodigo = [["e","enter"],
-                    ["i","imes"],
-                    ["a","ai"],
-                    ["o","ober"],
-                    ["u","ufat"]]; 
+                        ["i","imes"],
+                        ["a","ai"],
+                        ["o","ober"],
+                        ["u","ufat"]]; 
 
     stringEncriptado = stringEncriptado.toLowerCase();
 
